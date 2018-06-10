@@ -8,6 +8,8 @@ you want committed from the ones you dont want committed
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+you can add the relevant files you want to commit to the staging area before committing 
+thus any file you dont want to commit doesnt go to the staging area
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
@@ -24,5 +26,9 @@ manually?
 git init
 git add
 git status
-staging area
-working directory
+#staging area
+#working directory
+git diff 
+git diff --staged
+git checkout master 
+git reset --hard
