@@ -13,6 +13,9 @@ thus any file you dont want to commit doesnt go to the staging area
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+branches are useful when you want to add a feature or carry out an experiment on your project
+but you dont want it to affect your already working program then you branch out and work on
+it seperately from the main branch
 
 How do the diagrams help you visualize the branch structure?
 
@@ -32,3 +35,6 @@ git diff
 git diff --staged
 git checkout master 
 git reset --hard
+git branch
+git branch easy-mode
+git checkout easy-mode
