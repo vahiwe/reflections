@@ -18,12 +18,20 @@ but you dont want it to affect your already working program then you branch out 
 it seperately from the main branch
 
 How do the diagrams help you visualize the branch structure?
+it helps you to know commits that are not reachable when you run git log on a branch
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+merging two branches creates a commit that has a history of all commits on the two branches and
+combines the changes made on all files
+we represent it that way because it's a link between the two branches
+
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
+manually
+doing merges manually ensures that you know ur code is satisfactory to you before
+merging to the master branch unlike automatic that could merge branches without 
+knowing if the code is satisfactory
 
 
 git init
@@ -38,3 +46,13 @@ git reset --hard
 git branch
 git branch easy-mode
 git checkout easy-mode
+git log --graph --oneline master easy-mode
+got branch -b branch 
+git merge master coins
+git show commID
+git branch -d coins
+git log -n 1
+
+#apps
+gliffy
+yUML
