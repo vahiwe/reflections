@@ -34,25 +34,3 @@ merging to the master branch unlike automatic that could merge branches without
 knowing if the code is satisfactory
 
 
-git init
-git add
-git status
-#staging area
-#working directory
-git diff 
-git diff --staged
-git checkout master 
-git reset --hard
-git branch
-git branch easy-mode
-git checkout easy-mode
-git log --graph --oneline master easy-mode
-got branch -b branch 
-git merge master coins
-git show commID
-git branch -d coins
-git log -n 1
-
-#apps
-gliffy
-yUML
