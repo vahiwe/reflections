@@ -32,5 +32,3 @@ manually
 doing merges manually ensures that you know ur code is satisfactory to you before
 merging to the master branch unlike automatic that could merge branches without 
 knowing if the code is satisfactory
-
-
