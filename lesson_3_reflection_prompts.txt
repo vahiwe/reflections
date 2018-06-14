@@ -36,4 +36,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    you would make changes in a separate branch when you don't want to disrupt the code in the main branch
+	until you're sure of what you're doing then merging to the master branch when you're done.
+	working in a separate branch allows you to make sure a feature is working before merging
+	with the master branch
